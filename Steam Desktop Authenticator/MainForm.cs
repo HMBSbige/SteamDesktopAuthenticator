@@ -518,7 +518,7 @@ namespace Steam_Desktop_Authenticator
             string text = txtLoginToken.Text;
             if (String.IsNullOrEmpty(text))
                 return;
-            Clipboard.SetText(text);
+            Clipboard.SetDataObject(text);
         }
 
         /// <summary>
