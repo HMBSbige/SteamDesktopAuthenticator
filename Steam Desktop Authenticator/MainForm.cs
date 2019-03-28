@@ -372,7 +372,7 @@ namespace Steam_Desktop_Authenticator
         {
             if (txtLoginToken.Text != "")
             {
-                Clipboard.SetText(txtLoginToken.Text);
+                Clipboard.SetDataObject(txtLoginToken.Text);
             }
         }
 
